@@ -87,6 +87,33 @@ When the debugger is paused, you can inspect the values of variables in your cod
 
 10. Using Source Control:
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+   Launch Visual Studio Code, then launch a new terminal and use the following command to create an empty folder: mkdir gfg. 
+Next, use the following command to start a new React project: npx create-react-app gfgreact, after opening our folder in the new terminal.
+Then, use the command "git init" to initialize the git repository. 
+
+Open the App.js file in the src folder of the React project after going to it and adding some code. 
+Return to the vs code terminal and use this command to see the git repository's status: git status 
+Then use this command to add all changes to git: Add git. and use this command to see the status: git status 
+Next, use the following command to commit all changes: git commit -m "change the app.js file" and use this command to see how things are progressing: git status
+
+ Then use this command to add all changes to git: Add git. and use this command to see the status: git status
+Next, use the following command to commit all changes: git commit -m "change the app.js file" and use this command to see how things are progressing: git status
+These are the modifications we did to the local system, but we also want to submit the project we made in your system to GitHub. To do so, just follow the instructions below:
+
+1. Visit GitHub
+2. Next, select your profile.
+3. Choose the folder containing your repositories. Next, click the "New" option to create a new repository with the name GFGRepo. After confirming that the repository was established successfully, copy the repository link.
+Next, access the VS Code Terminal.
+
+
+Sources used:
+Geeksforgeeks
+meduim 
+VS Studio website
+marketsplash website
+nobledesktop 
+Dev Community website
+asapguide website
 
  Submission Guidelines:
 - Your answers should be well-structured, concise, and to the point.
